@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-158025383-3"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "UA-158025383-3");
+		</script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Freelance web developer portfolio" />
+		<link rel="icon" href="images/icon-48x48.png" type="text/css" />
+		<meta name="keywords" content="onepage, portfolio, websites, web, design" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+		/>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Charles Roberts Design</title>
+	</head>
+	<body>
+		<div class="page">
+			<div class="container">
+				<div class="sidebar">
+					<button class="close-nav">
+						<ion-icon name="close-outline"></ion-icon>
+					</button>
+					<div class="sidebar__content">
+						<img src="./images/sm-profile.jpg" alt="Charles Roberts" />
+						<div class="sidebar__text">
+							<h1>Charles Roberts</h1>
+							<p>Web Developer</p>
+							<div class="sidebar__text--logos">
+								<a href="https://twitter.com/cjrobertstech" target="_blank">
+									<ion-icon name="logo-twitter"></ion-icon>
+								</a>
+								<a
+									href="https://www.linkedin.com/in/cjrobertstech/"
+									target="_blank"
+								>
+									<ion-icon name="logo-linkedin"></ion-icon>
+								</a>
+								<a href="https://github.com/cjroberts2013" target="_blank">
+									<ion-icon name="logo-github"></ion-icon>
+								</a>
+							</div>
+						</div>
+						<div class="sidebar__nav">
+							<a href="index.html">Home</a>
+							<a href="portfolio.html">Portfolio</a>
+							<a href="blog.html">Blog</a>
+							<a href="#" class="is-active">Contact</a>
+						</div>
+					</div>
+					<p class="copyright">&copy; 2020 All rights reserved.</p>
+				</div>
+				<div class="content">
+					<button class="menu">
+						<ion-icon name="menu-outline"></ion-icon>
+					</button>
+					<section class="contact">
+						<h2 class="section__header">Contact <span>Us</span></h2>
+						<div class="about__content">
+							<div class="about__content--list contact__content">
+								<p>
+									<strong>
+										Please reach out to me with any questions or inquiries. You
+										can direct messeage me through any means below or by filling
+										out the form. I look forward to hearing from you!
+									</strong>
+								</p>
+
+								<ul class="">
+									<li><span>Location</span> Detroit, MI</li>
+									<li><span>Email</span> charles@charlesroberts.design</li>
+									<li><span>Phone</span> 979 618 0950</li>
+									<li>
+										<span>Twitter</span>
+										<a href="https://twitter.com/cjrobertstech" target="_blank">
+											cjrobertstech
+										</a>
+									</li>
+									<li>
+										<span>LinkedIn</span>
+										<a
+											href="https://www.linkedin.com/in/cjrobertstech/"
+											target="_blank"
+										>
+											cjrobertstech
+										</a>
+									</li>
+									<li>
+										<span>GitHub</span>
+										<a href="https://github.com/cjroberts2013" target="_blank">
+											cjroberts2013
+										</a>
+									</li>
+								</ul>
+							</div>
+							<form class="contact__form" action="contact.php" method="POST">
+								<input type="text" name="name" placeholder="Full Name" />
+								<input type="email" name="email" placeholder="Email" />
+								<textarea
+									name="message"
+									rows="7"
+									placeholder="Message"
+								></textarea>
+								<button type="submit" name="submit" class="btn contact__btn">
+									Send Message
+								</button>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
