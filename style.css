@@ -22,6 +22,11 @@ span {
 	color: #7ddca8;
 	font-weight: bold;
 }
+.lead {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #727272;
+}
 
 a {
 	text-decoration: none;
@@ -364,6 +369,86 @@ ul {
 	margin: 0;
 }
 
+/* ********** CASE STUDY ********** */
+
+.case__study {
+	font-size: 1.1rem;
+}
+
+.case__study--hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.case__study--hero img {
+	width: 45%;
+	height: auto;
+	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+}
+
+.case__study--text {
+	flex-basis: 45%;
+}
+
+.goal {
+	padding: 0.2rem 0;
+	background-color: #7ddca8;
+	color: #353040;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.medium__text {
+	width: 450px;
+	margin: auto;
+}
+
+.breakdown {
+	font-size: 1rem;
+}
+
+.display {
+	padding: 6rem 3rem;
+	background-color: rgb(242, 246, 247);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.display img {
+	width: 30%;
+	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+}
+
+.desktop {
+	margin: 2rem;
+}
+
+.desktop__img--contain {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+}
+
+.desktop__img {
+	width: 45%;
+	margin: 1rem;
+	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mobile {
+	background-color: #7ddca8;
+	display: flex;
+	justify-content: space-around;
+}
+
+.mobile__img {
+	margin: 3rem 0;
+	width: 17%;
+	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 1300px) {
 	.page {
 		padding: 0 4rem;
@@ -390,6 +475,20 @@ ul {
 
 	.portfolio__btn {
 		width: 100%;
+	}
+
+	.case__study--hero {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.case__study--hero img {
+		width: 100%;
+	}
+
+	.case__study--text {
+		flex-basis: 100%;
+		margin-bottom: 1rem;
 	}
 }
 
@@ -479,6 +578,34 @@ ul {
 	section {
 		width: 90%;
 		margin: 3rem auto;
+	}
+
+	.display {
+		padding: 3rem 0.7rem;
+		flex-direction: column;
+	}
+
+	.display img {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.desktop__img--contain {
+		flex-direction: column;
+	}
+
+	.desktop__img {
+		width: 100%;
+		margin: 0 0 2rem 0;
+	}
+
+	.mobile {
+		flex-direction: column;
+	}
+
+	.mobile__img {
+		width: 90%;
+		margin: 1.5rem auto;
 	}
 }
 
