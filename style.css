@@ -314,6 +314,10 @@ ul {
 	justify-content: center;
 }
 
+.marg__2 {
+	margin-top: 2rem;
+}
+
 /* ********** CONTACT FORM ********** */
 .contact__content {
 	font-size: 1.1rem;
@@ -440,7 +444,7 @@ ul {
 .mobile {
 	background-color: #7ddca8;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .mobile__img {
